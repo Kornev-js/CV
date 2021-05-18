@@ -1,3 +1,7 @@
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
 
 main {
     width: 740px;
@@ -12,6 +16,7 @@ main {
     margin: 0 auto;
     min-width: 700px;
 }
+
 
 .sidebar {
     width: 215px;
@@ -47,6 +52,7 @@ img {
 li {
     padding-bottom: 10px;
     padding-left: 10px;
+    text-align: left;
 }
 h3 {
     text-align: left;
@@ -58,4 +64,5 @@ h3 {
 
 .profileInformation__profExperience p {
     text-align: left;
+}
 
