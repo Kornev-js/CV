@@ -14,15 +14,15 @@
     <form action="#" id="form" class="form__body">
         <div class="form__item">
             <label for="formName" class="formLabel">Name*</label>
-            <input id="formName"  type="text" name="name" class="form__input">
+            <input id="formName"  type="text" name="name" class="form__input _req" placeholder="John Doe">
         </div>
         <div class="form__item">
             <label for="formEmail" class="formLabel">Email*</label>
-            <input id="formEmail"  type="email" name="email" class="form__input">
+            <input id="formEmail"  type="email" name="email" class="form__input _req" placeholder="example@mail.com">
         </div>
         <div class="form__item">
             <label for="formPassword" class="formLabel">Password*</label>
-            <input id="formPassword"  type="password" name="password" class="form__input">
+            <input id="formPassword"  type="password" name="password" class="form__input _req" placeholder="******">
         </div>
         <div class="form__item"></div>
         <div class="form__title">Gender</div>
@@ -45,18 +45,30 @@
             <div class="form__item">
                 <div class="form__label contacts">Contacts</div>
                 <select name="contact" class="select">
-                    <option value="1" s>Fb</option>
+                    <option value="1" >Fb</option>
                     <option value="2">Twitch</option>
                     <option value="3" selected>Vk</option>
                     <option value="4">Telega</option>
                     <option value="5">Other</option>
                 </select>
-            </div>
-            <div class="form__item">
-                <label for="formName" class="formLabel">Name*</label>
-                <input id="formName" type="text" name="name" class="form__input">
-            </div>
 
+            <div class="form__item-contact">
+                <label for="socialName" class="formLabel"></label>
+                <input id="socialName" type="text" name="name" class="form__input">
+            </div>
+            <button type="reset" class="contactButton">Delete</button>
+            </div>
+            <div class="noContactInputs">
+            <div class="form__item-contacts">
+                <label for="noSocialNtwrk" class="formLabel"></label>
+                <input id="noSocialNtwrk" type="text" name="name" class="form__input ">
+            </div>
+            <div class="form__item-contact">
+                <label for="noSocialName" class="formLabel"></label>
+                <input id="noSocialName" type="text" name="name" class="form__input noContactName">
+            </div>
+            <button type="reset" class="contactButton2">Delete</button>
+        </div>
         </div>
 
 
@@ -64,21 +76,21 @@
             <div class="form__label photo">Photo</div>
             <div class="file">
                 <div class="file__item">
-                    <input type="file" name="image" class="file__input" accept=".jpg, .gif, .png">
+                    <input type="file" name="image" class="file__input " accept=".jpg, .gif, .png">
                 </div>
             </div>
         </div>
         <div class="form__item">
             <label for="formHobbies" class="formLabel">Hobbies</label>
-            <textarea name="hobbies" id="formHobbies" class=""></textarea>
+            <textarea name="hobbies" id="formHobbies" class="" placeholder="Swimming"></textarea>
         </div>
         <div class="form__item">
             <label for="formWords" class="formLabel">Some words</label>
-            <textarea name="hobbies" id="formWords" class=""></textarea>
+            <textarea name="some words" id="formWords" class=""></textarea>
         </div>
         <div class="form__item">
             <div class="checkbox">
-                <input id="formAgreement" required checked type="checkbox" name="agreement" class="checkbox__input">
+                <input id="formAgreement" required checked type="checkbox" name="agreement" class="checkbox__input _req">
                 <label for="formAgreement" class="checkbox__label">Agreement</label>
             </div>
         </div>

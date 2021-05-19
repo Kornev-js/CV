@@ -6,6 +6,7 @@
 .form__item {
     display: flex;
     padding-bottom: 30px;
+
 }
 .formLabel {
     width: 20%;
@@ -59,7 +60,7 @@ textarea {
     background-color: #fff;
     background-color: #428bca;
     border: 1px solid;
-    border-radius: 2px ;
+    border-radius: 3px ;
     border-color: #428bca;
     height: 35px;
 }
@@ -72,7 +73,38 @@ textarea {
     border: 1px solid;
     border-color: #dddddd;
     border-color: #dddddd;
+    border-radius: 3px;
 }
+
+.form__item-contact {
+    margin-left: 10px;
+}
+
+.contactButton {
+    background-color: white;
+    border: none;
+
+    margin-left: -50px;
+}
+
+.noContactInputs {
+    display: flex;
+    margin-left: 20%;
+    padding-bottom: 20px;
+}
+.noContactName {
+    margin-left: -50px;;
+}
+
+.contactButton2 {
+    background-color: white;
+    border: none;
+    margin-left: -83px;
+}
+
+
+
+
 
 
 
